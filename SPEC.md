@@ -17,7 +17,7 @@ below map 1:1 to that schema.
 | `description` | — | string | Excerpt for the listing card + meta description fallback. |
 | `metaTitle` | — | string (≤60) | SEO `<title>` override. |
 | `metaDescription` | — | string (≤155) | SEO meta description override. |
-| `heroImage` | — | string | **Base64 data URI** (`data:image/png;base64,…`) or a `/blog-images/…` path or an absolute URL. The site decodes base64 to a cacheable file at build. |
+| `heroImage` | — | string | Repo-relative path to an image file, e.g. `images/<slug>.png`. (An absolute URL or an inline base64 data URI also work.) |
 | `heroImageAlt` | — | string | Alt text for the hero (accessibility + SEO). |
 | `author` | — | string | Display name. |
 | `tags` | — | string[] | First tag shown as the card eyebrow + post kicker. |
@@ -27,15 +27,19 @@ below map 1:1 to that schema.
 ## Body
 
 GitHub-Flavored Markdown after the frontmatter. Links are normal Markdown links.
-Inline images may also be base64 data URIs (`![alt](data:image/...;base64,...)`);
-the site decodes those to files too.
+Reference images by their repo-relative path, e.g. `![alt](images/<slug>.png)`.
 
-## Images = base64 (self-contained)
+## Images = files under `images/`
 
-Images travel **inside the post file** as base64 so a post is one portable file
-and the repo stays text-only (no binary blobs). At build the site extracts every
-data URI, writes it to `/blog-images/<sha256>.<ext>` (cached forever, hash-named),
-and rewrites the reference — so the **served** pages stay lean and fast.
+Each image is a normal file committed to `images/` (the publisher uploads it via
+the GitHub API, which base64-encodes the bytes on the wire). Posts reference it
+**repo-relative** as `images/<name>`, so the repo stays self-consistent and the
+image renders in GitHub's own preview. At build the site copies `images/` into
+`/blog-images/` (cached forever) and rewrites `images/…` → `/blog-images/…`.
+
+> Inline base64 data URIs (`![](data:image/png;base64,…)`) are still accepted and
+> decoded to files — a fallback — but separate files are preferred (GitHub caps
+> single-file commits near 1 MB, and they keep diffs clean).
 
 ## Minimal example
 
@@ -46,7 +50,7 @@ pubDate: 2026-07-01
 description: "Seat counts tell you who logged in, not who changed how they work."
 metaTitle: "How to measure AI adoption (not just seats)"
 metaDescription: "A practical guide to measuring real AI adoption — usage, blockers, and behaviour change — not login telemetry."
-heroImage: "data:image/png;base64,iVBORw0KGgo…"
+heroImage: "images/measuring-ai-adoption.png"
 heroImageAlt: "Tadeus — measuring AI adoption"
 author: "Tadeus Team"
 tags: ["AI adoption"]
