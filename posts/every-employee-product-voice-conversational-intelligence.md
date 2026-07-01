@@ -26,8 +26,6 @@ Every structured exchange, every piece of feedback, every question asked and ans
 
 This is the first thing we want to say publicly as Tadeus. Not a product launch. Not a feature announcement. A position on where workforce intelligence is going and why the infrastructure question matters more than the application question.
 
----
-
 ## The gap that nobody is measuring
 
 Most workforce platforms have a data problem they do not know they have.
@@ -40,8 +38,6 @@ So organisations get clean dashboards built on noisy inputs. HR teams make decis
 
 This is not a fringe problem. It scales with headcount. The larger the organisation, the more of its intelligence infrastructure is built on this assumption, and the more confident it feels about data that does not deserve confidence.
 
----
-
 ## Why voice changes the unit of analysis
 
 Text-based inputs — forms, ratings, open-text fields — have a structural limit. They capture what someone typed. They tell you nothing about how the response was formed, whether it was considered or reflexive, whether the question was understood or simply cleared.
@@ -51,8 +47,6 @@ Voice conversations carry a different kind of signal.
 Pace, pause, the arc of an answer across a full exchange: these are things a well-structured voice conversation can observe. A response compressed into two words after a silence of several seconds is not the same as two words offered without hesitation, even if the transcript looks identical. The conditions under which answers are given matter. They have always mattered. Workforce software has simply never been able to see them.
 
 [Conversational intelligence as a discipline is now mature enough](https://assemblyai.com/blog/conversation-intelligence) that the distinction between analysing conversations and simply transcribing them is well understood. The analysis layer and the interaction layer are different things. What has been missing in workforce software is the infrastructure to bring both inside the systems organisations already use, rather than treating them as standalone tools that create yet another workflow.
-
----
 
 ## The embedded intelligence argument
 
@@ -68,8 +62,6 @@ The same capability that runs a structured onboarding conversation for a new hir
 
 The practical implication is that an organisation running this at scale is not building a better survey. It is replacing a category of silent, low-fidelity data collection with something that can be trusted. Quality-checked input, structured, timestamped, and traceable to the conditions under which it was given, rather than a completion flag and a form submission.
 
----
-
 ## What this means for employees
 
 There is a version of this argument that focuses entirely on the organisation's data quality. It is valid. But it misses half the story.
@@ -82,8 +74,6 @@ This matters for signal quality, because engaged respondents produce better data
 
 [Voice AI brought into employee-facing workflows](https://www.soundhound.com/voice-ai-blog/how-to-improve-employee-productivity-with-conversational-voice-ai) can respond in real time, follow up on incomplete answers, and route what it learns to the right part of the organisation. That is a different experience than a form that accepts whatever is typed and sends it to a dashboard no one reads until the quarterly review.
 
----
-
 ## The horizontal opportunity
 
 So far, conversational intelligence has been deployed primarily in customer-facing contexts. Contact centres. Sales calls. Support tickets. [Twilio's recent work](https://www.twilio.com/en-us/blog/introducing-conversational-intelligence) on unified conversational intelligence across voice, messaging, and virtual agents is aimed squarely at the customer experience stack.
@@ -93,8 +83,6 @@ The workforce intelligence side has been slower. Forms still dominate. Survey pl
 That lag is an infrastructure gap, not a demand gap. Organisations want better employee signal. They want to understand whether their people are actually aligned with what the business is trying to do, not whether they finished the screen. The demand exists. The layer that could satisfy it — embedded, structured, quality-checked conversational intelligence inside the systems they already run — has not yet arrived at scale.
 
 That is what Tadeus is built to be.
-
----
 
 ## What "a voice" actually means in practice
 
@@ -107,8 +95,6 @@ Most workforce software offers the first. The form is there. The survey link was
 Products have voices in a different but related sense. Every piece of software that touches employees — every HCM, every compliance platform, every onboarding tool — speaks to people. Currently it speaks through screens, forms, and notifications. The question is whether those products can be given a conversational layer that makes them more useful, more trusted, and more capable of returning intelligence to the organisations that run them.
 
 That is the horizontal opportunity. Not a single better survey. Not one improved onboarding flow. A layer that runs through all of it, that treats every structured exchange as a data asset, and that returns quality-checked input rather than a completion flag.
-
----
 
 ## Frequently asked questions
 
@@ -131,8 +117,6 @@ Completion mode describes the state in which a respondent is answering with the 
 ### Is Tadeus a survey tool?
 
 Tadeus is not a survey tool, although it was originally developed to ensure it met the needs of rigorous academic surveys. It is now the conversational layer that sits inside workforce platforms, including HCM systems, onboarding tools, compliance platforms, and research infrastructure, to replace low-fidelity data collection with structured, quality-checked voice conversations. The output is not a report on completion rates. It is structured signal returned to the platform making decisions about people.
-
----
 
 ## Sources
 
