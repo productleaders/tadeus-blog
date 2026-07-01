@@ -16,11 +16,9 @@ faqs:
   - question: "What is \"completion mode\" and why does it matter?"
     answer: "Completion mode describes the state in which a respondent is answering with the goal of finishing rather than thinking. The response looks valid. The transcript is indistinguishable from a thoughtful answer. But the signal is absent. Every platform that optimises for completion rate is, by definition, blind to this, and the data that results is exactly where worst-quality inputs accumulate undetected."
   - question: "Is Tadeus a survey tool?"
-    answer: "Tadeus is not a survey tool, although it was originally developed to ensure it met the needs of rigorous academic surveys. It is now the conversational layer that sits inside workforce platforms, including HCM systems, onboarding tools, compliance platforms, and research infrastructure, to replace low-fidelity data collection with structured, quality-checked voice conversations. The output is not a report on completion rates. It is structured signal returned to the platform making decisions about people. ---"
+    answer: "Tadeus is not a survey tool, although it was originally developed to ensure it met the needs of rigorous academic surveys. It is now the conversational layer that sits inside workforce platforms, including HCM systems, onboarding tools, compliance platforms, and research infrastructure, to replace low-fidelity data collection with structured, quality-checked voice conversations. The output is not a report on completion rates. It is structured signal returned to the platform making decisions about people."
 draft: false
 ---
-
-# What happens when every employee and product has a voice
 
 **When conversational intelligence stops being a feature bolted onto a single tool and becomes the layer that runs through every system an organisation uses, something fundamental shifts: the conversation itself becomes the record.**
 
