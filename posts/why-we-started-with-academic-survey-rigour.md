@@ -1,8 +1,11 @@
 ---
-title: "Why we started with academic survey rigour"
+title: "How do you know AI-collected data can be trusted?"
 pubDate: 2026-07-02
+description: "Every AI vendor claims trustworthy data. Few can name their failure modes. How research-grade evaluation shapes the way Tadeus scores every conversation."
+metaTitle: "Can You Trust AI-Collected Data? Ask How It Fails | Tadeus"
+metaDescription: "Every AI vendor claims trustworthy data. Few can name their failure modes. How research-grade evaluation shapes the way Tadeus scores every conversation."
 heroImage: "images/why-we-started-with-academic-survey-rigour.webp"
-heroImageAlt: "Why we started with academic survey rigour"
+heroImageAlt: "How do you know AI-collected data can be trusted?"
 faqs:
   - question: "How is Tadeus different from other AI-moderated interview tools?"
     answer: "Most AI interview tools optimise for volume and completion: more sessions, faster, with a transcript at the end. Tadeus treats the transcript as half the output. The other half is a behavioural record of the conditions under which it was produced: response latency, answer compression, silence patterns, engagement arc, summarised in a per-session quality score. Tools that don't instrument respondent state cannot distinguish a reflective participant from one racing to finish, because on paper the two can look identical."
