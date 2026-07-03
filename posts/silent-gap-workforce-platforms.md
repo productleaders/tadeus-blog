@@ -1,5 +1,5 @@
 ---
-title: "1: The Silent Gap: Why Workforce Platforms Broadcast but Never Hear"
+title: "The Silent Gap: Why Workforce Platforms Broadcast but Never Hear"
 pubDate: 2026-07-03
 description: "Workforce systems broadcast but have no way to know if anyone understood. The cost of one-way communication, and why employee voice is an infrastructure gap."
 metaTitle: "The Silent Gap: Why Workforce Platforms Never Hear"
