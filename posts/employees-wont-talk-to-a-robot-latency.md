@@ -1,5 +1,5 @@
 ---
-title: "8 Employees Won't Talk to a Robot"
+title: "Employees Won't Talk to a Robot"
 pubDate: 2026-07-05
 description: "Employees don't refuse AI, they refuse slow AI. Why response latency is both the adoption curve and a proxy for whether an answer meant anything."
 metaTitle: "8 Employees Won't Talk to a Robot"
