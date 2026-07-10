@@ -117,6 +117,10 @@ The commercial consequence mirrors August's: embedding transfers the provider ob
 
 If you own the listening or people-analytics programme, run the classification exercise first. You cannot budget for compliance on systems you have not decided are in scope. If you sit in legal or vendor management, add the artefact question to every renewal and RFP now, because the answer tells you in one conversation which suppliers have built for December 2027 and which are hoping the date moves. If you are an HR director defending engagement data to a sceptical leadership team, the quality score is the same instrument that answers both problems: it tells you whether the sentiment is real, and it is the data governance evidence the Act will ask for.
 
+**Do the classification exercise now**
+
+The first move in this piece (classify every workforce AI system you run against Annex III) is a memo-writing exercise, so we've templated it. [The EU AI Act classification framework for workforce AI](https://tadeus.net/trust/classification-framework) walks the Article 6 / Annex III point 4 decision path section by section and comes with a free, ungated classification memo template (Markdown or Word): one memo per system, drift triggers included, "take this reasoning to your counsel" printed inside. It's versioned against the Commission's draft guidelines of 19 May 2026, and you can subscribe on the page to be notified when we re-check it against the finals.
+
 ## Frequently asked questions
 
 ### Does the EU AI Act's high-risk regime apply to employee engagement surveys?
