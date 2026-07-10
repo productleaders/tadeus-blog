@@ -1,5 +1,5 @@
 ---
-title: "\"A Word Count Is Not a Quality Signal\""
+title: "A Word Count Is Not a Quality Signal"
 pubDate: 2026-07-09
 description: "Word count, duration and sentiment measure output, not presence. The behavioural factors that make a response quality score reproducible and explainable."
 metaTitle: "A Word Count Is Not a Quality Signal"
