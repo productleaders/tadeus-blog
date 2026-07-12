@@ -1,5 +1,5 @@
 ---
-title: "15. \"The Action Gap: You Earned Their Honesty. Now What?\""
+title: "The Action Gap: You Earned Their Honesty. Now What?"
 pubDate: 2026-07-12
 description: "Listening programmes die at action, not collection. Honesty seen doing nothing trains a workforce to stop answering truthfully. Here's how to close the loop."
 metaTitle: "The Action Gap: You Earned Their Honesty. Now What?"
