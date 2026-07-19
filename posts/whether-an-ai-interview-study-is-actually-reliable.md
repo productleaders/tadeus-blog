@@ -14,7 +14,7 @@ faqs:
   - question: "Why shouldn't I trust fluency or richness scores?"
     answer: "Because the largest empirical study of interview response quality found that clarity and informativeness do not predict whether a response contributes to research findings, while relevance does (Ivey et al., 2026, 343 transcripts, roughly 17,000 responses). A fluent, detailed answer can be completely irrelevant, and an autopilot response often reads as richly as a considered one."
   - question: "How big does a pilot need to be before I trust my own read?"
-    answer: "Small. Reading a dozen or two full transcripts from your own population, judging each on whether it answered the question that was asked, will usually reveal the pattern. Scale up once the small read gives you confidence, not before."
+    answer: "Small. Reading a dozen or two full transcripts from your own population, judging each on whether it answered the question that was asked, will usually reveal the pattern. Scale up once the small read gives you confidence, not before. Our design guide for AI-moderated interview studies covers how to set the pilot up."
   - question: "Does the language or market change how I should evaluate a study?"
     answer: "Yes. Results do not automatically transfer across languages and populations, so the human baseline and prompt-sensitivity evidence need to exist in the market you operate in. Randomised AI versus human interviewer comparisons have been run on German-speaking samples (Wuttke et al., 2025), which is the kind of scope-specific evidence to ask for."
 draft: false
@@ -80,6 +80,8 @@ What to look for: a limitations section that actually limits something. If the a
 
 The test is boring and it works. Run a small campaign. Read the transcripts, not the dashboard. For each one, ask a single question drawn from the Johns Hopkins finding: did this conversation produce responses relevant to what the study needed to learn? Did the moderator probe when an answer was vague? Did it stop once it had enough? You will know within a dozen transcripts.
 
+If you are designing that pilot from scratch, we wrote a full companion guide: [how to design a reliable AI-moderated interview study](/ai-moderated-interviews). The tests in this piece are the audit; that guide is the build.
+
 And if the platform cannot hand you raw transcripts to read, that is your answer. The reluctance is the finding.
 
 ## Where Tadeus stands
@@ -121,7 +123,7 @@ Because the largest empirical study of interview response quality found that cla
 
 ### How big does a pilot need to be before I trust my own read?
 
-Small. Reading a dozen or two full transcripts from your own population, judging each on whether it answered the question that was asked, will usually reveal the pattern. Scale up once the small read gives you confidence, not before.
+Small. Reading a dozen or two full transcripts from your own population, judging each on whether it answered the question that was asked, will usually reveal the pattern. Scale up once the small read gives you confidence, not before. Our [design guide for AI-moderated interview studies](/ai-moderated-interviews) covers how to set the pilot up.
 
 ### Does the language or market change how I should evaluate a study?
 
